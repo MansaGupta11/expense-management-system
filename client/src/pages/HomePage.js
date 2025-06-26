@@ -4,7 +4,11 @@ import Layout from "./../components/Layout/Layout";
 const HomePage = () => {
   return (
     <Layout>
-      <h1>Home Page</h1>
+      <div className="filters">
+        <div>Range Filters</div>
+        <div><button></button></div>
+       
+      </div>
     </Layout>
   );
 };
